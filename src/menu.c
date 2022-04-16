@@ -61,7 +61,7 @@ void menuPagos(float aereoTd, float aereoTc, float aereoBit, float aereoU,
 	printf("D) Mostrar precio por KM (precio unitario): $%.2f\n\n", aereoU);
 
 	printf("LATAM\n");
-	printf("A) Tarjeta de Debito (10 descuento): %.2f: $\n", latamTd);
+	printf("A) Tarjeta de Debito (10 descuento): $%.2f: \n", latamTd);
 	printf("B) Tarjeta de Credito (25 interes): $%.2f\n", latamTc);
 	printf("C) Bitcoin (1BTC = 4606954.55 PESOS ARG): $%f\n", latamBit);
 	printf("D) Mostrar precio por KM (precio unitario): $%.2f\n", latamU);

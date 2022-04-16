@@ -151,24 +151,26 @@ int main(void) {
 		case 5:
 			system("cls");
 
-			printf("AEROLINEAS ARGENTINAS\n");
+			printf("KMs ingresados: %d\n\n", 7090);
+
+			printf("Precio AEROLINEAS ARGENTINAS: $%d\n", 162965);
 			printf("A) Tarjeta de Debito (10 descuento): $%.2f\n",
 					tarjetaDebito(162965));
 			printf("B) Tarjeta de Credito (25 interes): $%.2f\n",
 					tarjetaCredito(162965));
 			printf("C) Bitcoin (1BTC = 4606954.55 PESOS ARG): $%.2f\n",
 					bitcoin(162965));
-			printf("D) Mostrar precio por KM (precio unitario): $%.2f\n",
+			printf("D) Mostrar precio por KM (precio unitario): $%.2f\n\n",
 					valorUnitario(7090, 162965));
 
-			printf("LATAM\n");
+			printf("Precio LATAM: $%d\n", 159339);
 			printf("A) Tarjeta de Debito (10 descuento): %.2f: $\n",
 					tarjetaDebito(159339));
 			printf("B) Tarjeta de Credito (25 interes): $%.2f\n",
 					tarjetaCredito(159339));
 			printf("C) Bitcoin (1BTC = 4606954.55 PESOS ARG): $%.2f\n",
 					bitcoin(159339));
-			printf("D) Mostrar precio por KM (precio unitario): $%.2f\n",
+			printf("D) Mostrar precio por KM (precio unitario): $%.2f\n\n",
 					valorUnitario(7090, 159339));
 
 			printf(
