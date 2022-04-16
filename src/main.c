@@ -190,6 +190,5 @@ int main(void) {
 
 	} while (salir != 's');
 
-
 	return EXIT_SUCCESS;
 }
